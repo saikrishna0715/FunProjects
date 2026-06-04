@@ -7,8 +7,6 @@ MATRIX = [[0,1,-1],[-1,0,1],[1,-1,0]]
 def getStatus(comp,player):
     return MATRIX[player][comp]
 
-computer = snake = 0
-player = water = 1
 CHANCES = 5
 if __name__ == '__main__':
     print('Welcome to Snake , Water and Gun Game...... If you want to quit at any point press \'q\'')
